@@ -1,0 +1,210 @@
+.principal{
+    background-color: white;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.nav-title{
+    flex:1;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 150px;;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row; 
+    flex:6;
+    align-items: center;
+    list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+}
+.active{
+    width: bold;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    flex:1;
+    color: white;
+    background-color: rgb(10, 214, 214);
+    font-size: 20px;
+    box-shadow: 5px 5px black;
+    margin-right: 150px;
+}
+.rellenocompleto{
+    display: flex;
+}
+.rellenoizquierdo{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.contenedorarribaizq{
+    flex: 1;
+    height: 200px;
+    margin: 30px 50px;
+}
+.profile{
+    position: absolute; 
+    top: 180px;
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+}
+.ubi{
+    height:30px;
+    width:20px;
+}
+.gear{
+    height:20px;
+    width:20px;
+}
+.franja{
+    height: 130px;
+    background-color: rgb(9, 136, 136);
+}
+.debajofranja{
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid silver;
+}
+.contenido > h1{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.ubicacion{
+    height: 50px;
+    display:flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.descripcion{
+    vertical-align: center;
+    height: 70px;
+    margin-left: 40px;
+}
+.partebaja{
+    height: 30px;
+    display:flex;
+    align-items: center;
+    color:rgb(67, 67, 216);
+    text-decoration: underline;
+    margin-left: 40px;
+} 
+h2,h3{
+    margin-left:10px;
+}
+.contenedorabajoizq{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid silver;
+    height: 200px;
+    margin: 30px 50px;
+}
+.franjaabajoizq{
+    background-color: rgb(58, 56, 56);
+    color:white;
+    height: 50px;
+    padding-left: 40px;
+}
+.franjaabajoizq > h1{
+    padding: 5px 10px;
+    margin:0px;
+    height: 50px;
+}
+.contenidofranjaabajo{
+    vertical-align: center;
+    padding-left: 40px;
+}
+.contenidofranjaabajo > p{
+    margin-left: 10px;
+}
+.rellenoderecho{
+    margin: 30px 0px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.confirmar, .rechazar{
+    width: 40px;
+    height: 40px;
+    margin:5px;
+}
+.photo{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+.contenedorarribader{
+    flex: 1;
+    border: 2px solid silver;
+}
+.franjaarribader, .franjaabajoder{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(58, 56, 56);
+    color:white;
+}
+.numero1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: rgb(168, 165, 165);
+    color:black;
+}
+.numero2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(168, 165, 165);
+    color:black;
+}
+.primerrequest, .segundorequest{
+    display:flex;
+}
+.p1re, .p2re, .primercon, .segundocon, .tercercon, .cuartocon {
+    flex:2;
+    display:flex;
+    justify-content: flex-start;
+    margin:10px;
+}
+.botones{
+    flex:1;
+    display:flex;
+    align-self: center;
+}
+.contenedorabajoder{
+    flex: 2;
+    margin-top:30px;
+    border: 2px solid silver;
+}
+.more{
+    border: 3px solid silver;
+    color:steelblue;
+    text-decoration: underline;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+

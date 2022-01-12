@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="principal">
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find connections</a></li>
+            </ul>
+            <button class="btn">Sing out</button>
+        </div>
+        <div class="rellenocompleto">
+            <div class="rellenoizquierdo">
+                <div class="contenedorarribaizq">
+                    <div class="franja">
+                    </div>
+                    <div class="debajofranja">
+                        <div class="contenido">
+                            <img src="images/jane-m.jpg" alt="profile photo" class="profile">
+                            <h1 class="nombre">Jane Doe</h1>
+                        </div>
+                        <div class="ubicacion">
+                            <img src="images/map-marker.png" alt="location icon" class="ubi">
+                            <h2>Seatle</h2>
+                        </div>
+                        <div class="descripcion">
+                            <p>Dveloper | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Interner!</p>
+                        </div>
+                        <div class="partebaja">
+                            <img src="images/gear.png" alt="gear photo" class="gear">
+                            <h3 onclick="cambiar()">edit profile</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedorabajoizq">
+                    <div class="franjaabajoizq">
+                        <h1>Education</h1>
+                    </div>
+                    <div class="contenidofranjaabajo">
+                        <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                        <p>Dec 2019 - Mar 2020</p>
+                        <h3>Triple black belt in Python, MERN and C# ...</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="rellenoderecho">
+                <div class="contenedorarribader">
+                    <div class="franjaarribader">
+                        <h1 class="numero1">2</h1>
+                        <h1>Connection Request</h1>
+                    </div>
+                    <div class="requests">
+                        <div class="primerrequest">
+                            <div class="p1re">
+                                <img src="images/todd-s.jpg" alt="Todd photo" class="photo">
+                                <h2>Todd E</h2>
+                            </div>
+                            <div class="botones">
+                                <img src="icons/accept-circle.png" alt="check photo" class="confirmar" onclick="sube()">
+                                <img src="icons/close-circle.png" alt="Denied photo" class="rechazar" onclick="remover()">
+                            </div>
+                        </div>
+                        <div class="segundorequest">
+                            <div class="p2re">
+                                <img src="images/phil-s.jpg" alt="Phil photo" class="photo" >
+                                <h2>Phil K</h2>
+                            </div>
+                            <div class="botones">
+                                <img src="icons/accept-circle.png" alt="check photo" class="confirmar" onclick="sube()">
+                                <img src="icons/close-circle.png" alt="Denied photo" class="rechazar" onclick="remover()">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedorabajoder">
+                    <div class="franjaabajoder">
+                        <h1 class="numero2">418</h1>
+                        <h1>Your Connections</h1>
+                    </div>
+                    <div class="contactos">
+                        <div class="primercon">
+                            <img src="images/adrien-s.jpg" alt="Adrien photo" class="photo">
+                            <h2> Adrien D</h2>
+                        </div>
+                        <div class="segundocon">
+                            <img src="images/arry-s.jpg" alt="Anne photo" class="photo">
+                            <h2> Anne J</h2>
+                        </div>
+                        <div class="tercercon">
+                            <img src="images/alayne-s.jpg" alt="Alayne photo" class="photo">
+                            <h2> Alayne T</h2>
+                        </div>
+                        <div class="cuartocon">
+                            <img src="images/arry-s.jpg" alt="Arry photo" class="photo">
+                            <h2> Arry Y</h2>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <h2>View more</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
